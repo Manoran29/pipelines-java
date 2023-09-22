@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  strategy:
+strategy:
   matrix:
     linux:
       imageName: "ubuntu-latest"
@@ -16,6 +15,9 @@ pool:
     windows:
       imageName: "windows-latest"
   maxParallel: 3
+
+pool:
+  vmImage: $(imageName)
 
 
 steps:
