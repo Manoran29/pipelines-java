@@ -16,7 +16,7 @@ strategy:
       imageName: "windows-latest"
   maxParallel: 3
 
-pool: myagent1.LNZCL1836
+pool: myagent1
 
 steps:
 - task: Maven@3
