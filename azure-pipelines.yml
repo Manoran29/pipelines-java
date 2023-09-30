@@ -16,8 +16,7 @@ strategy:
       imageName: "windows-latest"
   maxParallel: 3
 
-pool:
-  vmImage: $(imageName)
+pool:myagent1
 
 
 steps:
