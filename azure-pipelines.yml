@@ -16,7 +16,7 @@ strategy:
       imageName: "windows-latest"
   maxParallel: 3
 
-pool:myagent1
+pool: myagent1
 
 
 steps:
