@@ -18,7 +18,6 @@ strategy:
 
 pool: myagent1
 
-
 steps:
 - task: Maven@3
   inputs:
